@@ -1,0 +1,23 @@
+{
+  "name": "serverapi",
+  "version": "1.0.0",
+  "description": "An app with Restful api for react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "restful",
+    "json"
+  ],
+  "author": "Ambitha Krishnan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "formidable": "^2.0.1",
+    "mongoose": "^6.1.8",
+    "multer": "^1.4.4"
+  }
+}
