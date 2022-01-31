@@ -1,0 +1,221 @@
+{
+	"id": "2f131bf6-e78c-85c8-f0e4-b61c5163c35d",
+	"name": "apiCollection",
+	"description": "Api",
+	"order": [
+		"a34d23da-2ba6-8faf-2ade-c000442ca087",
+		"c89a29ee-f149-0aae-ef50-f9d10972edec",
+		"e4f88e8a-503c-4b9d-fec8-4fa984d65ee3",
+		"7fb5cc25-1daa-77a6-1639-4c49cf059387"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1643593402828,
+	"owner": "668093",
+	"public": false,
+	"requests": [
+		{
+			"id": "7fb5cc25-1daa-77a6-1639-4c49cf059387",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:3000/card/sample",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PATCH",
+			"collectionId": "2f131bf6-e78c-85c8-f0e4-b61c5163c35d",
+			"data": [
+				{
+					"key": "title",
+					"value": "sample",
+					"description": ""
+				},
+				{
+					"key": "description",
+					"value": "description",
+					"description": ""
+				},
+				{
+					"key": "duration",
+					"value": "10",
+					"description": ""
+				},
+				{
+					"key": "genre",
+					"value": "thriller",
+					"description": ""
+				},
+				{
+					"key": "image",
+					"value": "dummy",
+					"description": ""
+				}
+			],
+			"dataMode": "params",
+			"name": "http://localhost:3000/card/{name}",
+			"description": "Update cards from db",
+			"descriptionFormat": "html",
+			"time": 1643602001610,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "a34d23da-2ba6-8faf-2ade-c000442ca087",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/card",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "2f131bf6-e78c-85c8-f0e4-b61c5163c35d",
+			"data": [
+				{
+					"key": "title",
+					"value": "anu",
+					"description": ""
+				},
+				{
+					"key": "image",
+					"value": "",
+					"description": "",
+					"type": "file"
+				},
+				{
+					"key": "duration",
+					"value": "10",
+					"description": ""
+				},
+				{
+					"key": "genre",
+					"value": "thriller",
+					"description": ""
+				},
+				{
+					"key": "description",
+					"value": "Description",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"dataMode": "params",
+			"name": "http://localhost:3000/card",
+			"description": "Create new card",
+			"descriptionFormat": "html",
+			"time": 1643593479549,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "c89a29ee-f149-0aae-ef50-f9d10972edec",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:3000/card/sample",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "title",
+					"value": "sample",
+					"description": ""
+				},
+				{
+					"key": "description",
+					"value": "description",
+					"description": ""
+				},
+				{
+					"key": "duration",
+					"value": "10",
+					"description": ""
+				},
+				{
+					"key": "genre",
+					"value": "thriller",
+					"description": ""
+				},
+				{
+					"key": "image",
+					"value": "dummy",
+					"description": ""
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1643593602173,
+			"name": "http://localhost:3000/card",
+			"description": "Get all cards from db",
+			"collectionId": "2f131bf6-e78c-85c8-f0e4-b61c5163c35d",
+			"responses": []
+		},
+		{
+			"id": "e4f88e8a-503c-4b9d-fec8-4fa984d65ee3",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:3000/card/sample",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "2f131bf6-e78c-85c8-f0e4-b61c5163c35d",
+			"data": [
+				{
+					"key": "title",
+					"value": "sample",
+					"description": ""
+				},
+				{
+					"key": "description",
+					"value": "description",
+					"description": ""
+				},
+				{
+					"key": "duration",
+					"value": "10",
+					"description": ""
+				},
+				{
+					"key": "genre",
+					"value": "thriller",
+					"description": ""
+				},
+				{
+					"key": "image",
+					"value": "dummy",
+					"description": ""
+				}
+			],
+			"dataMode": "params",
+			"name": "http://localhost:3000/card/{name}",
+			"description": "Delete cards from db",
+			"descriptionFormat": "html",
+			"time": 1643601927538,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
